@@ -10,6 +10,7 @@ public class OrderItem implements Serializable {
 	private Order order;
 	private Product product;
 	private int buynum;
+	
 	public Order getOrder() {
 		return order;
 	}
